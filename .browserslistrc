@@ -1,0 +1,12 @@
+# Этот файл используется системой сборки для настройки вывода CSS и JS для поддержки указанных ниже браузеров.
+# Дополнительную информацию о формате и вариантах правил см:
+# https://github.com/browserslist/browserslist#queries
+
+# Вы можете увидеть, какие браузеры были выбраны вашими запросами, выполнив команду:
+#   npx browserslist
+
+> 0.5%
+last 2 versions
+Firefox ESR
+not dead
+not IE 9-11 # For IE 9-11 support, remove 'not'.
