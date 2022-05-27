@@ -17,14 +17,14 @@
               <a class="nav-link"
                  [ngClass]="{'active': listConfig.type === 'feed'}"
                  (click)="setListTo('feed')">
-                 Ваш корм
+                 Ваш опыт
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link"
                  [ngClass]="{'active': listConfig.type === 'all' && !listConfig.filters.tag}"
                  (click)="setListTo('all')">
-                 Глобальный корм
+                 Глобальный опыт
               </a>
             </li>
             <li class="nav-item" [hidden]="!listConfig.filters.tag">
