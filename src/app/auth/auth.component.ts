@@ -33,7 +33,7 @@ export class AuthComponent implements OnInit {
       // Получите последнюю часть URL (это либо 'login', либо 'register')
       this.authType = data[data.length - 1].path;
       // Задайте соответствующее название для страницы
-      this.title = (this.authType === 'login') ? 'Sign in' : 'Sign up';
+      this.title = (this.authType === 'login') ? 'Войти' : 'Зарегистрироваться';
       // добавьте элемент управления формой для имени пользователя, если это страница регистрации
       if (this.authType === 'register') {
         this.authForm.addControl('username', new FormControl());
